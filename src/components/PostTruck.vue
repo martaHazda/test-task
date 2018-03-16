@@ -55,7 +55,7 @@ export default {
       this.isFormOpen = formCloseStatus;
     },
     deleteAllTruckData() {
-      this.trackTableList = 0;
+      this.trackTableList.splice(0, this.trackTableList.length);
     }
   }
 

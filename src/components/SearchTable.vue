@@ -3,7 +3,7 @@
     <h1>{{searchTitle}} {{searchResults.length}}</h1>
     <div class="search-buttons">
         <li class="undo-button"><a href="#">Undo</a></li>
-        <li class="clear-button"><a href="#" v-on:click="openForm">Clear</a></li>
+        <li class="clear-button"><a href="#">Clear</a></li>
     </div>
     <table>
       <tr>
